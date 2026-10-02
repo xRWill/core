@@ -12,7 +12,7 @@ use Illuminate\Support\Str;
  */
 final class Factory
 {
-    protected static \Closure $nameResolver;
+    private static \Closure $nameResolver;
 
     public function __construct()
     {

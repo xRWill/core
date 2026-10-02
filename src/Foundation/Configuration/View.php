@@ -6,9 +6,9 @@ use Illuminate\Support\Str;
 
 final class View
 {
-    protected static \Closure $namespaceBuilder;
+    private static \Closure $namespaceBuilder;
     /** @var string[] */
-    protected array $paths = [];
+    private array $paths = [];
 
     public function __construct()
     {

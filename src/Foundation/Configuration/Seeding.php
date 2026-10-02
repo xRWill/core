@@ -11,9 +11,9 @@ use Illuminate\Support\Collection;
  */
 final class Seeding
 {
-    protected static \Closure $seederSorter;
+    private static \Closure $seederSorter;
     /** @var string[] */
-    protected array $paths = [];
+    private array $paths = [];
 
     public function __construct()
     {

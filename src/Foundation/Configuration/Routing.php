@@ -8,7 +8,7 @@ use Webmozart\Assert\Assert;
 
 final class Routing
 {
-    protected static \Closure $apiVersionResolver;
+    private static \Closure $apiVersionResolver;
     /** @var string[] */
     private array $apiRouteDirs = [];
     /** @var string[] */
